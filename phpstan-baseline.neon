@@ -1,1 +1,295 @@
 parameters:
+	ignoreErrors:
+		-
+			message: '#^Function public_asset not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/AdminFilamentCssTag.php
+
+		-
+			message: '#^Function public_asset not found\.$#'
+			identifier: function.notFound
+			count: 8
+			path: src/Entities/AdminFilamentJsLibsScriptTag.php
+
+		-
+			message: '#^Function admin_url not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/AdminFilamentJsScriptTag.php
+
+		-
+			message: '#^Function public_asset not found\.$#'
+			identifier: function.notFound
+			count: 2
+			path: src/Entities/AdminFilamentJsScriptTag.php
+
+		-
+			message: '#^Constant DS not found\.$#'
+			identifier: constant.notFound
+			count: 1
+			path: src/Entities/AdminWebAppManifestTags.php
+
+		-
+			message: '#^Constant MW_VERSION not found\.$#'
+			identifier: constant.notFound
+			count: 2
+			path: src/Entities/AdminWebAppManifestTags.php
+
+		-
+			message: '#^Function admin_url not found\.$#'
+			identifier: function.notFound
+			count: 2
+			path: src/Entities/AdminWebAppManifestTags.php
+
+		-
+			message: '#^Function get_favicon_image not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/AdminWebAppManifestTags.php
+
+		-
+			message: '#^Function get_option not found\.$#'
+			identifier: function.notFound
+			count: 3
+			path: src/Entities/AdminWebAppManifestTags.php
+
+		-
+			message: '#^Function is_admin not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/AdminWebAppManifestTags.php
+
+		-
+			message: '#^Function mw_is_installed not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/AdminWebAppManifestTags.php
+
+		-
+			message: '#^Function mw_is_multisite not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/AdminWebAppManifestTags.php
+
+		-
+			message: '#^Function userfiles_path not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/AdminWebAppManifestTags.php
+
+		-
+			message: '#^Function userfiles_url not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/AdminWebAppManifestTags.php
+
+		-
+			message: '#^Function public_asset not found\.$#'
+			identifier: function.notFound
+			count: 4
+			path: src/Entities/ApijsScriptTag.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$user_manager\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Entities/AuthorHeadTags.php
+
+		-
+			message: '#^Function content_id not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/AuthorHeadTags.php
+
+		-
+			message: '#^Function get_content_by_id not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/AuthorHeadTags.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$template_manager\.$#'
+			identifier: property.notFound
+			count: 2
+			path: src/Entities/CustomCssHeadTags.php
+
+		-
+			message: '#^Function in_live_edit not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/CustomCssHeadTags.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$template_manager\.$#'
+			identifier: property.notFound
+			count: 2
+			path: src/Entities/CustomFontsCssHeadTags.php
+
+		-
+			message: '#^Function in_live_edit not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/CustomFontsCssHeadTags.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$template_manager\.$#'
+			identifier: property.notFound
+			count: 2
+			path: src/Entities/CustomFooterTagsFromCallback.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$template_manager\.$#'
+			identifier: property.notFound
+			count: 2
+			path: src/Entities/CustomHeadTagsFromCallback.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$template_manager\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Entities/CustomHeadTagsFromSiteHeaderEvent.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$option_repository\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Entities/CustomUserFooterTags.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$option_repository\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Entities/CustomUserHeadTags.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$option_repository\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Entities/FaviconHeadTag.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$ui\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Entities/FaviconHeadTag.php
+
+		-
+			message: '#^Function get_option not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/FrontendAnimationsScriptTag.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$ui\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Entities/GeneratorHeadTag.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$template_manager\.$#'
+			identifier: property.notFound
+			count: 2
+			path: src/Entities/IconFontsHeadTag.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$template_manager\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Entities/LiveEditCssHeadPrealoadTags.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$template_manager\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Entities/LiveEditCssHeadTags.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$template_manager\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Entities/LiveEditJsFooterTags.php
+
+		-
+			message: '#^Function public_asset not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/LivewireHeadTags.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$template_manager\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Entities/MwSettingsJsScriptTag.php
+
+		-
+			message: '#^Function template_url not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/MwSettingsJsScriptTag.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$template_manager\.$#'
+			identifier: property.notFound
+			count: 2
+			path: src/Entities/SystemDefaultCssHeadTags.php
+
+		-
+			message: '#^Function content_id not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/TitleHeadTags.php
+
+		-
+			message: '#^Function get_content_by_id not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/TitleHeadTags.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$option_repository\.$#'
+			identifier: property.notFound
+			count: 3
+			path: src/Entities/WebmasterHeadTags.php
+
+		-
+			message: '#^Call to method render\(\) on an unknown class Arcanedev\\SeoHelper\\Entities\\Analytics\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Entities/WebmasterHeadTags.php
+
+		-
+			message: '#^Call to method setGoogle\(\) on an unknown class Arcanedev\\SeoHelper\\Entities\\Analytics\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Entities/WebmasterHeadTags.php
+
+		-
+			message: '#^Call to static method make\(\) on an unknown class Arcanedev\\SeoHelper\\Entities\\Webmasters\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Entities/WebmasterHeadTags.php
+
+		-
+			message: '#^Function get_option not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/WebmasterHeadTags.php
+
+		-
+			message: '#^Instantiated class Arcanedev\\SeoHelper\\Entities\\Analytics not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Entities/WebmasterHeadTags.php
+
+		-
+			message: '#^Function is_admin not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Entities/ZiggyRoutesHeadTags.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$template_manager\.$#'
+			identifier: property.notFound
+			count: 4
+			path: src/helpers/meta_tags_functions.php
